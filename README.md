@@ -28,9 +28,11 @@ mvn clean install
 java -jar target/corebanking-app-0.0.1-SNAPSHOT.jar
 ```
 ### Using the application
- 1) Once the application is up and running, user can interact via  localhost:8080. URL are mentioned below
- 2) GET   localhost:8080/api/account/{accountId}/statement      Reports statement with transactions
- 3) POST  localhost:8080/api/account/transfer                   Transfer funds between accounts
+ Once the application is up and running, user can interact via  localhost:8080. URL are mentioned below
+```
+GET   localhost:8080/api/account/{accountId}/statement        Reports statement with transactions
+POST  localhost:8080/api/account/transfer                     Transfer funds between accounts
+```
 
 ###### Transfering funds between accounts
 When transfering funds between accounts, the API is expecting a structured JSON message in the payload with values amount, fromAccountId,toAccountId. Like
