@@ -12,18 +12,21 @@ Technologies used :
 * Spring Data JPA
 * H2 Database
 * Java 8
-### prerequisites for running the application
+### Prerequisites for running the application
 * git client 
 * maven 
 * Java 8 
 
 ### To build and run the application
-
-git clone https://github.com/kamalbhandari23/MoneseJavaCodeTest
-
+```
+git clone https://github.com/kamalbhandari23/MoneseJavaCodeTest.git
+```
+```
 mvn clean install
-
+```
+```
 java -jar target/corebanking-app-0.0.1-SNAPSHOT.jar
+```
 ### Using the application
  1) Once the application is up and running, user can interact via  localhost:8080. URL are mentioned below
  2) GET   localhost:8080/api/account/{accountId}/statement      Reports statement with transactions
