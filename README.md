@@ -37,7 +37,7 @@ When transfering funds between accounts, the API is expecting a structured JSON 
 
 ###### In memory Database
 Tables ACCOUNT and TRANSACTION are  stored in an in-memory database (H2 Database). During application startup two accounts are created with following account id
-1) 10
-2) 20 
+1) ACCOUNT_ID- 10
+2) ACCOUNT_ID- 20
 
 *Note - This application only provides functionality based on the requirements received. 
